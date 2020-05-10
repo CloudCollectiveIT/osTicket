@@ -10,6 +10,8 @@ Vagrantfile
 
 # Staging directory used for packaging script
 stage
+setup_hidden
+include/i18n.dist
 
 # Ignore packaged plugins and language packs
 *.phar
